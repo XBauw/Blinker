@@ -6,7 +6,6 @@
   Blinker::Blinker(unsigned int ledPin, unsigned long blinkInterval, const long startDelay) {
     _ledPin = ledPin;
     _blinkInterval = blinkInterval;
-    _volgendeBlinkOm = _nu;
     _startDelay = startDelay
   }
   
