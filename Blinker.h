@@ -10,7 +10,7 @@
         unsigned int _ledPin; 
     public:
         //constructor
-        Blinker(unsigned int ledPin, unsigned long blinkInterval, const long _startDelay = 0;);
+        Blinker(unsigned int ledPin, unsigned long blinkInterval, const long _startDelay = 0);
         //destructor
         ~Blinker();
 
