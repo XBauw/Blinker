@@ -14,7 +14,7 @@
 
   int Blinker::begin() {
       pinMode(_ledPin, OUTPUT);
-      _volgendeBlinkOm = millis() + startDelay;
+      _volgendeBlinkOm = millis() + _startDelay;
 
       return 0;
     }
