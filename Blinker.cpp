@@ -1,3 +1,4 @@
+#include <Arduino.h>
 #include <Blinker.h>
 
 //klasse-implementatie
