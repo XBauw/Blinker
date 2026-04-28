@@ -6,7 +6,7 @@
   Blinker::Blinker(unsigned int ledPin, unsigned long blinkInterval, const long startDelay) {
     _ledPin = ledPin;
     _blinkInterval = blinkInterval;
-    _startDelay = startDelay
+    _startDelay = startDelay;
   }
   
   Blinker::~Blinker() {}
@@ -14,7 +14,7 @@
 
   int Blinker::begin() {
       pinMode(_ledPin, OUTPUT);
-      _volgendeBlinkOm = millis() + startDelay
+      _volgendeBlinkOm = millis() + startDelay;
 
       return 0;
     }
